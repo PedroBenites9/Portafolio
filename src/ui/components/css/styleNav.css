@@ -20,8 +20,8 @@ header::before {
 
 .header__img {
     object-fit: cover;
-    width: 35rem;
-    height: 35rem;
+    width: 25rem;
+    height: 25rem;
     clip-path: circle(50% at center);
 }
 
@@ -33,7 +33,7 @@ header::before {
 .header__presentacion {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 2rem 30rem;
+    margin: .5rem 20rem;
 }
 
 
