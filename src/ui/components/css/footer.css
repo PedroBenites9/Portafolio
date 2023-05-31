@@ -1,0 +1,22 @@
+.footer__contenedor {
+    display: grid;
+    background-color: #1b1b1b;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    color: whitegigtgi;
+}
+
+.footer__PB {
+    text-align: center;
+}
+
+.footer__links {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.footer__contactos {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}

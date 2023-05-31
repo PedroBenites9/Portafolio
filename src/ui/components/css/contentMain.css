@@ -55,3 +55,19 @@ div>p {
     grid-column: 2/3;
     grid-row: 2;
 }
+
+.article__carousel {
+    background-color: #333333;
+    padding: 5rem 30rem;
+}
+
+.article__card {
+    background: #333333;
+    gap: 3rem;
+}
+
+.h2__title-card {
+    color: white;
+    text-align: center;
+    padding: 7rem 0 3rem 0;
+}

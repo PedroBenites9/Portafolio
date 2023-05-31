@@ -1,6 +1,8 @@
 import "./css/contentMain.css";
 import foto_portafolio from "../../assets/foto_perfil_portafolio.jpg";
 import CarouselComponent from "./Carousel/CarouselComponent";
+import Cards from "./Cards/Cards";
+import CardsEnDesarrollo from "./Cards/CardsEnDesarrollo";
 
 export const Content = () => {
   return (
@@ -10,8 +12,8 @@ export const Content = () => {
           <article
             className="article__aboutme"
             data-aos="fade-zoom-in"
-            data-aos-delay="200"
-            data-aos-duration="700"
+            data-aos-delay="300"
+            data-aos-duration="1000"
           >
             <img
               className="article__aboutme-foto"
@@ -29,7 +31,7 @@ export const Content = () => {
                     esta vocacion del Front-end en plena pandemia, hasta el dia
                     de hoy sigo estudiando, conociendo nuevas tecnicas y
                     desarrollo para el diseño web. Mi objetivo es poder difundir
-                    la estetica, lo atractivo, lo llamativo y simpleza de en un
+                    la estetica, lo atractivo, lo llamativo y simpleza de un
                     proyecto.
                   </p>
                 </div>
@@ -64,8 +66,21 @@ export const Content = () => {
           </article>
         </section>
         <section>
-          <article>
+          <article className="article__carousel">
+            <h2 className="article__title-technology">
+              Tecnologias en las que me destaco
+            </h2>
             <CarouselComponent />
+          </article>
+        </section>
+        <section>
+          <article className="article__card">
+            <h2 className="h2__title-card">Proyectos terminados</h2>
+            <Cards />
+          </article>
+          <article className="article__card ">
+            <h2 className="h2__title-card">Proyectos en desarrollo</h2>
+            <CardsEnDesarrollo />
           </article>
         </section>
       </main>
