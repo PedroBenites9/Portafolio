@@ -1,0 +1,73 @@
+div>p {
+    color: #7b7b7b;
+}
+
+.section__content {
+    background-color: #292929;
+    color: #a4a4a4;
+}
+
+.article__aboutme-content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.article__aboutme {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5rem 20rem;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.article__aboutme-me {
+    text-align: justify;
+    line-height: 10rem;
+}
+
+.text {
+    line-height: 2.5rem;
+}
+
+.article__aboutme-foto {
+    width: auto;
+    height: 40rem;
+}
+
+.article__aboutme-box {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem 4rem;
+    margin: 5rem 0;
+    padding: 2rem;
+    outline: solid .5rem #ca3a35;
+
+}
+
+.article__aboutme-nombre {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.article__aboutme-direccion {
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+.article__carousel {
+    background-color: #333333;
+    padding: 5rem 30rem;
+}
+
+.article__card {
+    background: #333333;
+    gap: 3rem;
+}
+
+.h2__title-card {
+    color: white;
+    text-align: center;
+    padding: 7rem 0 3rem 0;
+}

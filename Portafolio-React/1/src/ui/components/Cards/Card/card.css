@@ -1,0 +1,25 @@
+.card__contenedor {
+    background-color: #606060;
+    max-width: 38rem;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 2rem;
+}
+
+.card__img {
+    max-width: 38rem;
+    height: auto;
+    align-self: center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.card__data {
+    padding: 0 2rem 1rem;
+}
+
+.card__contenedor>p {
+    text-align: justify;
+    color: #333;
+}
